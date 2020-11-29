@@ -1,6 +1,0 @@
-com/example/demo/DemoApplication.java
- com.example.demo.DemoApplication
-com/personal/dsalgo/TowersOfHanoi.java
- com.personal.dsalgo.TowersOfHanoi
-com/personal/dsalgo/CheckIfArrayIsSorted.java
- com.personal.dsalgo.CheckIfArrayIsSorted
