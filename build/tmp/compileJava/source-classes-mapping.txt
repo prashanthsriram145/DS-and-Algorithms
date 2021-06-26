@@ -1,6 +1,85 @@
+com/design/patterns/builder/Waiter.java
+ com.design.patterns.builder.Waiter
+com/dsalgo/sorting/BubbleSort.java
+ com.dsalgo.sorting.BubbleSort
+com/stack/PalindromeChecker.java
+ com.stack.PalindromeChecker
+com/design/patterns/prototype/Person.java
+ com.design.patterns.prototype.Person
+com/personal/dsalgo/KAryString.java
+ com.personal.dsalgo.KAryString
+com/dsalgo/dynamicprogramming/Fibonocci.java
+ com.dsalgo.dynamicprogramming.Fibonocci
 com/personal/dsalgo/TowersOfHanoi.java
  com.personal.dsalgo.TowersOfHanoi
 com/personal/dsalgo/CheckIfArrayIsSorted.java
  com.personal.dsalgo.CheckIfArrayIsSorted
+com/queues/ReverseElementsInQueue.java
+ com.queues.ReverseElementsInQueue
+com/stack/BalancingOfSymbols.java
+ com.stack.BalancingOfSymbols
+com/design/patterns/prototype/Official.java
+ com.design.patterns.prototype.Official
+com/dsalgo/LongestSubSequence.java
+ com.dsalgo.LongestSubSequence
+com/dsalgo/dynamicprogramming/PlantingFlowers.java
+ com.dsalgo.dynamicprogramming.PlantingFlowers
+com/design/patterns/prototype/Private.java
+ com.design.patterns.prototype.Private
+com/design/patterns/prototype/PrototypeDemo.java
+ com.design.patterns.prototype.PrototypeDemo
+com/dsalgo/WaterBetweenBuildings.java
+ com.dsalgo.WaterBetweenBuildings
+com/design/patterns/builder/Pizza.java
+ com.design.patterns.builder.Pizza
+com/GenerateSASTokenStorage.java
+ com.GenerateSASTokenStorage
+com/searching/algos/JumpSearch.java
+ com.searching.algos.JumpSearch
+com/design/patterns/builder/PizzaBuilder.java
+ com.design.patterns.builder.PizzaBuilder
+com/dsalgo/GFG.java
+ com.dsalgo.Solution
+ com.dsalgo.Solution$1
+ com.dsalgo.Solution$pair
+com/searching/algos/BinarySearch.java
+ com.searching.algos.BinarySearch
+com/example/demo/Translator.java
+ com.example.demo.Translator
+com/dsalgo/sorting/SelectionSort.java
+ com.dsalgo.sorting.SelectionSort
+com/dsalgo/trees/BinaryTreeNode.java
+ com.dsalgo.trees.BinaryTreeNode
+com/dsalgo/BinarySearch.java
+ com.dsalgo.BinarySearch
+com/design/patterns/prototype/PersonFactory.java
+ com.design.patterns.prototype.PersonFactory
+com/dsalgo/divideconquer/LongestCommonSubsequence.java
+ com.dsalgo.divideconquer.LongestCommonSubsequence
+com/dsalgo/CandiesToChildren.java
+ com.dsalgo.CandiesToChildren
+com/dsalgo/trees/FindMaxElementInTree.java
+ com.dsalgo.trees.FindMaxElementInTree
+com/dsalgo/greedy/JobScheduler.java
+ com.dsalgo.greedy.JobScheduler
+ com.dsalgo.greedy.JobScheduler$1
+com/design/patterns/builder/HawaainPizzaBuilder.java
+ com.design.patterns.builder.HawaainPizzaBuilder
+com/queues/LRUCache.java
+ com.queues.LRUCache
 com/example/demo/DemoApplication.java
  com.example.demo.DemoApplication
+com/stack/GetMinimumWithBigO1ForStack.java
+ com.stack.GetMinimumWithBigO1ForStack
+com/stack/ReverseStackElements.java
+ com.stack.ReverseStackElements
+com/design/patterns/prototype/HomeMaker.java
+ com.design.patterns.prototype.HomeMaker
+com/design/patterns/builder/SpicePizzaBuilder.java
+ com.design.patterns.builder.SpicePizzaBuilder
+com/design/patterns/builder/PizzaBuilderDemo.java
+ com.design.patterns.builder.PizzaBuilderDemo
+com/dsalgo/sorting/QuickSort.java
+ com.dsalgo.sorting.QuickSort
+com/dsalgo/graphs/MangoSellerBFS.java
+ com.dsalgo.graphs.MangoSellerBFS
