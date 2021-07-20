@@ -6,8 +6,8 @@ com/stack/PalindromeChecker.java
  com.stack.PalindromeChecker
 com/design/patterns/prototype/Person.java
  com.design.patterns.prototype.Person
-com/personal/dsalgo/KAryString.java
- com.personal.dsalgo.KAryString
+com/dsalgo/BinaryOfNumber.java
+ com.dsalgo.BinaryOfNumber
 com/dsalgo/dynamicprogramming/Fibonocci.java
  com.dsalgo.dynamicprogramming.Fibonocci
 com/personal/dsalgo/TowersOfHanoi.java
@@ -54,8 +54,8 @@ com/dsalgo/BinarySearch.java
  com.dsalgo.BinarySearch
 com/design/patterns/prototype/PersonFactory.java
  com.design.patterns.prototype.PersonFactory
-com/dsalgo/divideconquer/LongestCommonSubsequence.java
- com.dsalgo.divideconquer.LongestCommonSubsequence
+com/dsalgo/dynamicprogramming/Knapsack.java
+ com.dsalgo.dynamicprogramming.Knapsack
 com/dsalgo/CandiesToChildren.java
  com.dsalgo.CandiesToChildren
 com/dsalgo/trees/FindMaxElementInTree.java
@@ -79,7 +79,34 @@ com/design/patterns/builder/SpicePizzaBuilder.java
  com.design.patterns.builder.SpicePizzaBuilder
 com/design/patterns/builder/PizzaBuilderDemo.java
  com.design.patterns.builder.PizzaBuilderDemo
-com/dsalgo/sorting/QuickSort.java
- com.dsalgo.sorting.QuickSort
+com/dsalgo/trees/BinarySearchTree.java
+ com.dsalgo.trees.BinarySearchTree
+ com.dsalgo.trees.Node
 com/dsalgo/graphs/MangoSellerBFS.java
  com.dsalgo.graphs.MangoSellerBFS
+com/dsalgo/graphs/BreadthFirstSearch.java
+ com.dsalgo.graphs.BreadthFirstSearch
+com/dsalgo/graphs/Dijkstraalgo.java
+ com.dsalgo.graphs.Dijkstraalgo
+ com.dsalgo.graphs.Dijkstraalgo$1
+com/dsalgo/greedy/SetOfRadioStationsSelector.java
+ com.dsalgo.greedy.SetOfRadioStationsSelector
+com/dsalgo/divideconquer/LongestCommonSubsequence.java
+ com.dsalgo.divideconquer.LongestCommonSubsequence
+com/dsalgo/dynamicprogramming/LongestCommonSubSequence.java
+ com.dsalgo.dynamicprogramming.LongestCommonSubSequence
+com/dsalgo/dynamicprogramming/LongestCommonSequence.java
+ com.dsalgo.dynamicprogramming.LongestCommonSequence
+com/dsalgo/greedy/JobSchedulerNew.java
+ com.dsalgo.greedy.JobSchedulerNew
+ com.dsalgo.greedy.JobSchedulerNew$1
+com/dsalgo/WaterBwBuildingsNew.java
+ com.dsalgo.WaterBwBuildingsNew
+com/dsalgo/CandiesToChildrenNew.java
+ com.dsalgo.CandiesToChildrenNew
+com/dsalgo/sorting/QuickSort.java
+ com.dsalgo.sorting.QuickSort
+com/dsalgo/dynamicprogramming/FibonacciNew.java
+ com.dsalgo.dynamicprogramming.FibonacciNew
+com/personal/dsalgo/KAryString.java
+ com.personal.dsalgo.KAryString

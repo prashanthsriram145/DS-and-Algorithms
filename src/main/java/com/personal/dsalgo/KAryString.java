@@ -25,6 +25,10 @@ public class KAryString {
 
     public static void main(String[] args) {
         KAryString kAryString = new KAryString(3);
-        kAryString.kString(3, 3);
+        long start = System.currentTimeMillis();
+        kAryString.kString(3, 2);
+        long end = System.currentTimeMillis();
+        System.out.println(end-start);
+        System.out.println(start + ", " + end);
     }
 }

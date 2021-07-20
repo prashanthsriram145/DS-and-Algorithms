@@ -2,10 +2,11 @@ package com.dsalgo.divideconquer;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Stack;
 
 public class LongestCommonSubsequence {
     public static void main(String[] args) {
-        List<String> words = Arrays.asList("geeks", "geeksforgeeks", "geekz", "geek");
+        List<String> words = Arrays.asList("geeks@123", "geeks1123forgeeks", "geeks123z", "geeks1234");
         System.out.println(findLongestSubSequence(words, 0, words.size()-1));
     }
 
@@ -16,24 +17,27 @@ public class LongestCommonSubsequence {
         int mid =  (low + high)/2;
         String word1 = findLongestSubSequence(words, low, mid);
         String word2 = findLongestSubSequence(words, mid+1, high);
-
-        String common = findCommonSequence(word1, word2);
-        return common;
+        Stack<Character> stack = new Stack();
+        findCommonSequence(word1.toCharArray(), word2.toCharArray(), word1.length(), word2.length(), stack);
+        String commonString = "";
+        while(!stack.isEmpty()) {
+            commonString = commonString + stack.pop();
+        }
+        return commonString;
 
     }
 
-    private static String findCommonSequence(String word1, String word2) {
-        int len1 = word1.length();
-        int len2 = word2.length();
-        int i=0, j=0;
-        String result = "";
-        while(i < len1 && j < len2) {
-            if(word1.charAt(i) != word2.charAt(j)) {
-                break;
-            }
-            result = result + word1.charAt(i);
-            i++; j++;
+    private static void findCommonSequence(char[] word1, char[] word2, int len1, int len2, Stack<Character> stack) {
+        if(len1 == 0 || len2 == 0) {
+            return;
         }
-        return result;
+        if(word1[len1-1] == word2[len2-1]) {
+            stack.push(word1[len1-1]);
+            findCommonSequence(word1, word2, len1-1, len2-1, stack);
+        } else {
+            findCommonSequence(word1, word2, len1-1, len2, stack);
+            findCommonSequence(word1, word2, len1, len2-1, stack);
+        }
+
     }
 }
